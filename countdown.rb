@@ -1,5 +1,5 @@
 #write your code here
-require 'pry'
+
 def countdown(count = 10)
     while count > 0
         puts "#{count} SECOND(S)!"
@@ -14,7 +14,7 @@ def countdown_with_sleep(time = countdown)
         sleep 1
         time -= 1
     end 
-    binding.pry   
+   
 end
 
 
